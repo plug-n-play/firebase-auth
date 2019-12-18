@@ -121,16 +121,18 @@
     </ul>
   </div>
   
-  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-firestore.js"></script>
   <script>
     // Initialize Firebase
     var config = {
       apiKey: "AIzaSyDlDUJhsP0_uh-YpaRfTOhWZsyY_hLukTw",
       authDomain: "net-ninja-sandbox.firebaseapp.com",
       databaseURL: "https://net-ninja-sandbox.firebaseio.com",
-      projectId: "net-ninja-sandbox"
+      projectId: "net-ninja-sandbox",
+      storageBucket: '',
+      messagingSenderId: ''
     };
     firebase.initializeApp(config);
     
